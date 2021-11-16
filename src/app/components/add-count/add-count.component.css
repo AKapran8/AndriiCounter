@@ -1,0 +1,13 @@
+.container {
+  padding: 100px 0px;
+  text-align: center;
+}
+.title {
+  line-height: 0;
+  font-size: 150px;
+  margin: 0 0 70px 0;
+}
+.btn {
+  display: block;
+  margin: 0 auto;
+}

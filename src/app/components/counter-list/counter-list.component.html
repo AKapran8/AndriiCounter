@@ -1,0 +1,11 @@
+<div *ngIf="counts.length > 0">
+  <mat-card *ngFor="let count of counts; let i = index" class="container">
+      <p>
+        <span>
+          Date:
+        </span>
+        {{count.date}}
+      </p>
+  </mat-card>
+</div>
+<p *ngIf="counts.length === 0">Please add count</p>
