@@ -48,7 +48,6 @@ app.get("/counts", (req, res, next) => {
 
 app.delete("/counts/:id", (req,res,next) => {
   Count.deleteOne({_id: req.params.id}).then(result => {
-    console.log(result);
     res.status(200).json({message: "Count deleted!"});
   });
 });
